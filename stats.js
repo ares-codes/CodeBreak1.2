@@ -406,7 +406,7 @@ function share_button_click() {
       text += row_text;
     }
 
-    text += "\n\n";
+    text += "\n";
     text += "https://codebreak1.netlify.app/";
 
     // navigator clipboard api needs a secure context (https)

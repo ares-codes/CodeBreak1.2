@@ -73,11 +73,10 @@ const help = () => {
     para.style.padding = "2vw";
     para.style.textAlign = "center";
     content.appendChild(para);
+    content.appendChild(document.createElement("hr"));
 
     //add a div with examples
     const examples = document.createElement("div");
-    examples.style.borderBottom = "1px solid #3a3a3c";
-    examples.style.borderTop = "1px solid #3a3a3c";
 
     //2 divs
     let freq = document.createElement("div");
@@ -245,14 +244,14 @@ const help = () => {
 
     tilecontainer.appendChild(code_row);
     tilecontainer.appendChild(cursorRow);
-    tilecontainer.style.display = "inline-block";
-    tilecontainer.style.paddingLeft = "20vw";
-    tilecontainer.style.paddingRight = "15vw";
+    tilecontainer.style.display = "block";
+    tilecontainer.style.marginInline = "auto";
+    tilecontainer.style.width = "fit-content";
 
     guess.appendChild(tilecontainer);
-    guess.style.margin = "0 auto";
     guess.style.display = "block";
-    guess.style.width = "100%";
+    guess.style.marginInline = "auto";
+    guess.style.width = "fit-content";
 
     para = document.createElement("p");
     para.style.fontSize = "calc(7px + 1.5vh)";
@@ -260,6 +259,8 @@ const help = () => {
     para.innerHTML = "(The actual" + CODE + "is above)";
     para.style.textAlign = "center";
     guess.appendChild(para);
+
+    guess.appendChild(document.createElement("hr"));
 
     para = document.createElement("p");
     para.style.fontSize = "calc(10px + 1.5vh)";
@@ -308,6 +309,7 @@ const help = () => {
     examples.appendChild(guess);
 
     content.appendChild(examples);
+    content.appendChild(document.createElement("hr"));
 
     //another paragraph
     para = document.createElement("p");
