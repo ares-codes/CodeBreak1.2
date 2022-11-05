@@ -70,7 +70,6 @@ const help = () => {
       "is revealed at the start. " +
       " Hit the enter button to submit.";
     para.style.fontSize = "calc(10px + 1.5vh)";
-    para.style.padding = "2vw";
     para.style.textAlign = "center";
     content.appendChild(para);
     content.appendChild(document.createElement("hr"));
@@ -105,7 +104,6 @@ const help = () => {
     para = document.createElement("p");
     para.innerHTML = "The" + CODE + "has 3 A’s, 3 B’s, & 2 C’s";
     para.style.fontSize = "calc(8px + 1.5vh)";
-    para.style.padding = "1vw";
     para.style.textAlign = "center";
     freq.appendChild(para);
 
@@ -114,7 +112,6 @@ const help = () => {
     para = document.createElement("p");
     para.innerHTML = "(The guess" + CODE + "is below)";
     para.style.fontSize = "calc(7px + 1.5vh)";
-    para.style.padding = "1vw";
     para.style.textAlign = "center";
 
     freq.appendChild(para);
@@ -259,7 +256,6 @@ const help = () => {
     para.innerHTML = "(The actual" + CODE + "is above)";
     para.style.textAlign = "center";
     guess.appendChild(para);
-
     guess.appendChild(document.createElement("hr"));
 
     para = document.createElement("p");
