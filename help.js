@@ -263,7 +263,7 @@ const help = () => {
     para.style.textAlign = "center";
     para.innerHTML =
       "After each guess, the number of tiles in the correct position will be revealed to show how close your guess was to the" +
-      CODE +
+       " <b>CODE</b>" +
       ".";
     guess.appendChild(para);
 
