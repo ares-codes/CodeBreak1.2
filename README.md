@@ -1,3 +1,3 @@
 # CodeBreak1.2
 
-Click [here](https://codebreak1.netlify.app/) to go to the site.
+Click [here](https://ashack7426.github.io/CodeBreak1.2/) to go to the site.
