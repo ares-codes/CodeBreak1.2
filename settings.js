@@ -238,7 +238,7 @@ const setting = () => {
     coffee.appendChild(coffeeExplain);
 
     const coffeepic = document.createElement("img");
-    coffeepic.src = "/images/coffee.png";
+    coffeepic.src = "./images/coffee.png";
     coffeepic.style.margin = "auto";
     coffeepic.style.display = "block";
     coffeepic.style.height = "max(11vh, 8vw)";
@@ -271,7 +271,7 @@ const setting = () => {
     email.appendChild(emailExplain);
 
     const emailpic = document.createElement("img");
-    emailpic.src = "/images/email.png";
+    emailpic.src = "./images/email.png";
     emailpic.style.margin = "auto";
     emailpic.style.display = "block";
     emailpic.style.height = "max(11.75vh, 8.75vw)";
